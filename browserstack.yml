@@ -1,0 +1,27 @@
+userName: USERNAME
+accessKey: TOKEN
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest-beta
+  - os: OS X
+    osVersion: Sonoma
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest-beta
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
+buildIdentifier: "#${BUILD_NUMBER}"
