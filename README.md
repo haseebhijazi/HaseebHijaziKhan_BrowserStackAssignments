@@ -38,3 +38,4 @@ python automation_test.py
 ## Results
 Results are logged onto the terminal along with providing the url to Browser Stack dashboard 
 
+Change

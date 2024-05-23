@@ -9,8 +9,7 @@ import time
 
 
 options = ChromeOptions()
-# # if there is some error then uncomment the below line
-# options.set_capability('sessionName', 'Flipkart Sample Test')
+
 driver = webdriver.Chrome(options=options)
 
 driver.get("https://www.flipkart.com/")
@@ -38,8 +37,6 @@ driver.execute_script("arguments[0].click();", element2)
 time.sleep(2)
 
 divs = driver.find_elements(By.XPATH, "/html/body/div/div/div[3]/div/div[2]/div")
-
-
 
 for i, div in enumerate(divs):
     if "cPHDOP" not in div.get_attribute("class"):
